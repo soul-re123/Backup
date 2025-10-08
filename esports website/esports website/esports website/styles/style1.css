@@ -1,0 +1,59 @@
+body {
+    background-color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+
+}
+header {
+    background-color: #800000;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+img {
+    float: left;
+    background-color: #800000;
+}
+
+a {
+    text-decoration: none;
+    font-size: 75px;
+    color: black;
+    text-align: center;
+    opacity: 75%;
+}
+a:hover {
+    color: #808080;
+}
+header>p {
+    font-size: 75px;
+    color: black;
+    text-align: center;
+    opacity: 75%;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 75px;
+    color: black;
+}
+ details>a {
+    font-size: 20px;
+    text-decoration: underline;
+    color: blue;
+}
+details>a:visited {
+    color: purple;
+}
+p>a {
+    font-size: 20px;
+    text-decoration: underline;
+    color: blue;
+
+}
+p>a:visited {
+    color: purple;
+}
+
