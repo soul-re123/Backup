@@ -1,0 +1,10 @@
+img {
+    float: left;
+    padding: 0%;
+    background-image: linear-gradient(to top, #FF7F50, #F5F5DC);
+}
+html {
+    background-image: linear-gradient(to top, #FF7F50, #F5F5DC);
+    background-repeat: no-repeat;
+    height: 100%;
+}
