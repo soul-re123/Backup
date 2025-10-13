@@ -1,0 +1,53 @@
+h1 {
+    color: orange;
+   font-weight: bold;
+   text-shadow: 2.5px 2px black;
+   
+}
+header {
+    text-indent: 15pt;
+
+    
+}
+span+hr {
+    font-weight: bolder;
+    font-style: italic;
+}
+section {
+    text-align: right;
+    font-size: small;
+}
+div {
+   width: 400px;
+   height: 350px;
+   border: 1px none;
+   background-color: #FFD580;
+   float: right;
+}
+img {
+    float: left;
+}
+body {
+    width: 1000px;
+    height: 600px;
+    border: 3px solid black;
+    margin: 0 auto;
+    background-color: white;
+}
+html {
+    background-image: linear-gradient(white, #ffd580);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+hr {
+    border: 2px solid orange;
+}
+header h3 {
+    font-style: italic;
+}
+.grey {
+    color: grey;
+}
+.red {
+    color: red;
+}

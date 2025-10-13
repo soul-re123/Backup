@@ -1,0 +1,28 @@
+img {
+   float: left;
+   display: block;
+   margin: 0 auto;
+   width: 10%;
+   height: auto;
+   margin-right: 3%;
+   margin-left: 40%;
+   border: blue 2px solid;
+   border-width: 5px;
+}
+body {
+    background-color: #b3b3b3;
+}
+h1 {
+    color: #fc05fe;
+}
+h2 {
+     color: #fc05fe;
+}
+h1, h2, p {
+    text-align: center;
+}
+hr {
+    clear: both;
+    border: solid, white, 2px;
+}
+
