@@ -1,0 +1,72 @@
+ header img {
+    height: 100px;
+    width: auto;
+    float: left;
+}
+header {
+    text-align: center;
+   background-color: #fff49b;
+   height: 100px;
+   padding: 0;
+   margin: 0;
+}
+figure {
+    border: 2px solid black;
+    height: 250px;
+    width: 300px;
+       float: left;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        margin: 0;
+        background-color: white;
+}
+figure img {
+    height: 150px;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+body {
+    border: 2px solid black;
+    height: 850px;
+    width: 1800px;
+    background-color: #98FF98;
+    margin: 0 auto;
+
+}
+hr {
+    border: 2px solid black;    
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+}
+h3 {
+    padding: 0;
+    margin: 0;
+}
+a {
+    font-size: small;
+}
+section {
+     text-align: center;
+}
+button {
+    background-color: #FF6961;
+}
+aside {
+    clear: both;
+     background-color: #fff49b;
+     height: 85px;
+     margin: 0;
+     padding: 0;
+     width: 1800px;
+}
+html {
+    background-color: blue;;
+}
+

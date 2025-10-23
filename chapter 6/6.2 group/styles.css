@@ -1,0 +1,80 @@
+*{margin:0; padding:0;}
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 2rem;
+        background-color: #f4f4f4;
+        width: 90%;
+        background: linear-gradient(to top, #000, rgb(255, 0, 80));
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 3px solid #000;
+        /*Change height at end*/
+    }
+    html{
+        background-color: rgb(72, 0, 42);
+        height: 100vh;
+        color: white;
+    }
+header img{
+    width: 8rem;
+    height: auto;
+    float: left;
+}
+header h1 {
+    font-size: 2.5em;
+}
+header {
+    text-align: center;
+    background-color: black;
+    height:8rem;
+}
+main p {
+    clear: both;
+}
+.consoles {
+    width: 45%;
+    height: 30%;
+}
+main {
+    width: 45%;
+    height: 30%;
+    border: 2px solid black;
+}
+footer {
+    background-color: #111;
+    clear:both;
+}
+a {
+    color: white;
+}
+img {
+    display: inline;
+    border: 5px solid #ddd;
+    border-radius:2px;
+}
+
+footer p{
+    clear:both;
+}
+figure img{
+    width: 100%;
+    height: auto;
+}
+figcaption {
+ margin-left: 8%;
+}
+figure{
+    float: left;
+    margin: 1rem;
+    width: clamp(150px, 25%, 300px);
+}
+footer section{
+    margin-top: 2rem;
+    border: 2px solid black;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 48%;
+    float:left;
+}
+ul {clear: both; list-style-type: none;}

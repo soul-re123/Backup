@@ -1,0 +1,26 @@
+html {
+    background-image: url("../images/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-attachment: scroll;
+    text-align: center;
+  
+}
+aside {
+    border: solid 2px white;
+   height: 250px;
+    width: 500px;
+      margin: 0 auto;
+}
+h1, h2 {
+    text-align: center;
+}
+.fancy {
+    font-weight: bold;
+    font-style: italic;
+}
+h2 {
+   text-shadow: 2px 2px red; 
+}
