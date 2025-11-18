@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
 
 <h2>My First JavaScript</h2>
@@ -11,16 +13,18 @@
 
 <p id="demo">It can also change text!</p>
 <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello World!"''>Click me! </button>
+<button type="button" onclick="document.getElementById('demo').innerHTML = 'It can also change text'">Change back!</button>
 <br>
 
-<button onclick="document.getElementById('image').src='sunset.jpg'">Turn this into a sunset! <button>
-    <img id="image" src="sunset.jpg" style="width:100px">
-    <button onclick="document.getElementById('image').src='tiger.jpg'">Turn it into a tiger!</button>
+<button onclick="document.getElementById('image').src='images/sunset.jpg'">Turn this into a sunset! <button>
+    <img id="image" src="images/sunset.jpg" style="width:100px">
+    <button onclick="document.getElementById('image').src='images/tiger.jpg'">Turn it into a tiger!</button>
     <br>
 
 <p id="font">Size change</p>    
 <button type="button" onclick="document.getElementById('font').style.fontSize='35px'">Size Change!</button>
 <button type="button" onclick="document.getElementById('font').style.fontSize='16px'">Change it back</button>
+<button= type="button" onclick="document.getElementById('font').style.color='Red'">Color Change!</button>
 <br>
 
 <p id="display">Hi</p>

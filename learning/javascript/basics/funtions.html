@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <head>
+
+    </head>
+<body>
+    
+    <input type="text" id="name" placeholder="Enter name here">
+    <button onclick="storeInput()">Save Name</button>
+    <p id="Display"></p>
+    <script>
+        <p id="hello"></p>
+        function Multiply(t1, t2) {
+            return t1 * t2;
+        }
+      let result =  Multiply(6, 10);
+        document.getElementById("test1").innerHTML = 'The result is: ' + result;
+
+        function storeInput() {
+            //get a reference to the input element by its Id
+            let inputElement = document.getElementById("name");
+
+            //Get value from the input element
+            let iputValue = inputElement.value;
+
+            //Store the Value in an element
+            let myVariable = iputValue;
+
+            // You can then use 'myVariable' as needed, for example, displaying it
+            document.getElementById("Display").innerHTML = "Stored Name: " + myVariable;
+
+            //Optional clesar input field
+            inputElement.value = "";
+        }
+
+    </script>
+    <p id="test1"></p>
+    </body>
+    </html>
