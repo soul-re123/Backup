@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+ #textInputContainer {
+    display: none;
+ }
+  </style>
+  <title>haunted Hallow Hayrides</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>Haunted Willow Hayrides</h1>
+  <h3>Prices</h3>
+  <ul>
+    <li>Adults (15 and up): $15.00</li>
+    <li>Children (5-14): $10.00</li>
+    <li>Sodas: $3.00</li>
+    <li>Candy: $2.00</li>
+  </ul>
+  <form>
+    <fieldset>
+      <legend>Basic Information</legend>
+       <p>Please enter your name:<input type="text" name="name" id="name" placeholder="put name here" required></p>
+       <p>Phone Number: <input type="text" name="phone" id="phone" placeholder="put phone number here" required></p>
+       <p>Email Address: <input type="email" name="email" id="email" placeholder="put email here" required></p>
+       <p>How many Adult tickets do you need: <input type="number" name="tickets" id="tickets" placeholder="0" required></p>
+        <p>How many child tickets do you need: <input type="number" name="tickets" id="tickets" placeholder="0" required></p>
+        <h2>What time would you like to attend</h2>
+        <p><input type="radio" name="time" value="8:00 p.m." checked> 8:00 p.m.</p>
+        <p><input type="radio" name="time" value="8:30 p.m."> 8:30 p.m.</p>
+        <p><input type="radio" name="time" value="9:00 p.m."> 9:00 p.m.</p>
+        <p><input type="radio" name="time" value="9:30 p.m."> 9:30 p.m.</p>
+        <p><input type="radio" name="time" value="10:00 p.m."> 10:00 p.m.</p>
+        <p><input type="radio" name="time" value="10:30 p.m."> 10:30 p.m.</p>
+
+            <h2>What snacks would you like?</h2>
+            <P> <input type="checkbox" name="water" id="water">Water</P>
+           <p> <input type="checkbox" name="snack" id="snack">Soda</p>
+           <p><input type="checkbox" name="snack" id="snack">Popcorn</p>
+           <p><input type="checkbox" name="snack" id="snack">Candy</p>
+           <p><input type="checkbox" name="snack" id="snack">Chips</p>
+          
+           
+           <div>
+           <p><input type="checkbox" id="other" name="other" onchange="toggleInput()">Other</p>
+             <aside id="textInputContainer">
+            <label for="textInput"></label>
+            <input type="text" id="textInput" placeholder="Other snacks/drinks">
+           </aside>
+
+            <script src="js/js.js"></script>
+</div>
+          <h3>Please select a date</h3>
+          <input type="date" id="date" name="date" required max="2025-10-31"><br>
+           <!--Once the box is checked the text input is enabled-->
+          
+        
+
+         
+
+           <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Additional comments here..."></textarea>
+           <br>
+           <input type="submit" value="Submit"><input type="reset" value="Reset">
+
+    </fieldset>
+  </form>
+ 
+</body>
+</html>

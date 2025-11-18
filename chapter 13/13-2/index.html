@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1 {
+    color: #8E7618;
+}
+p {
+    color: #8E7618;
+}
+input[type="checkbox"] {
+   accent-color: #FF6961;
+}
+    </style>
+  <title></title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>Gaming Information</h1>
+  <form>
+    <fieldset>
+        <p>Enter name: <input type="text" name="name" id="name" required plaeholder="Student Name"></p>
+        <p>Enter Password: <input type="text" name="password" id="password" placeholder="Password"></p>
+        <p>Enter number of years gaming <input type="text" name="age" id="age" placeholder="age"></p>
+
+        <p>Number of hours played weekly</p>
+       <p><input type="radio"> &lt;5 hours a week</p>
+       <p><input type="radio"> 5-10 hours a week</p>
+       <p><input type="radio"> &gt;10 hours a week</p>
+
+       <p>Gaming Console:</p>
+       <p><input type="checkbox" name="console" value="xbox"> Xbox</p>
+       <p><input type="checkbox" name="console" value="playstation"> PlayStation</p>
+       <p><input type="checkbox" name="console" value="nintendo"> Nintendo Switch</p>
+       <p><input type="checkbox" name="console" value="other"> Other</p>
+
+       <input type="submit" name="submit" id="submit" value="Submit"><input type="reset" name="reset" id="reset" value="Reset">
+
+    </fieldset>
+  </form>
+
+</body>
+</html>
