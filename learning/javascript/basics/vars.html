@@ -8,12 +8,32 @@
 <p>This example shows how variables can be used</p>
 <p id="numbers"></p>
 <p id="car"></p>
+<p>Enter your age below:</p>
+<!--This form stops the data from being submitted and runs the javascript code on click from the submit button-->
+<form>
+  <input type="number" id="age" name="age"><br>
+  <input type="submit" onclick="myFunction(); return false;" value="Submit">
+  <input type="reset" id="reset" name="reset">
+</form>
 <!--Basic Variables, underscores are treated as a letter aswell as the $ symbol-->
 
 <script>
+  
+  let age = 0;
 let x = 5;
 let y = 6;
 let z = x + y;
+function myFunction() {
+   age = document.getElementById("age").value;
+    if(age < 18){
+      alert("You are under 18");
+    } else {
+      alert("You are over 18");
+    }
+   
+  }
+  
+
 
 document.getElementById("numbers").innerHTML = "The value of z is " + z;
   

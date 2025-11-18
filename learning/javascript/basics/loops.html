@@ -1,16 +1,56 @@
 <!DOCTYPE html>
+<html>
 <head>
   <title>The consoel Store</title>
   <meta charset="UTF-8">
 </head>
 <body>
-  <header>
+ <p id="number">Lp</p>
+<input type="submit" onclick="Addition()" value="addition">
+<input type="submit" value="subtraction" onclick="subtraction()">
+<input type="submit" value="whileLoops" onclick="whileLoops()">
+<input type="submit" value="Do While" onclick="doWhile()">
 
-  </header>
-  <main>
-
-  </main>
-  <footer>
+ <script>
+  const newP = document.createElement('p');
+  const box = document.getElementById('number');
+  let text = "";
+  let numbers = 0;
+  numbers = numbers + 2;
+function Addition() {
+  for (let i = 0; i < 11; i++) {
+    newP.innerHTML += "The number is " + i + "<br>";
+    box.appendChild(newP);
     
-  </footer>
+  }
+}
+function subtraction() {
+    for (let i = 10; i > 0; i--){
+      newP.innerHTML += "The numbers are " + i +"<br>"
+      box.appendChild(newP);
+    }
+}
+function whileLoops() {
+  let i = 0;
+while (i < 20) {
+  newP.innerHtml +="The numbers are " + i + "<br>";
+   newP.textContent = "The number is " + i;
+  box.appendChild(newP)
+  i++;
+}
+}
+function doWhile(){
+  let i = 0;
+do {
+   newP.innerHtml +="The numbers are " + i + "<br>";
+   newP.textContent = "The number is " + i;
+  box.appendChild(newP)
+  i++;
+}
+
+while( i < 20);
+}
+
+ </script>
 </body>
+</html>
