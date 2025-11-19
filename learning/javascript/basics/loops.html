@@ -10,7 +10,8 @@
 <input type="submit" value="subtraction" onclick="subtraction()">
 <input type="submit" value="whileLoops" onclick="whileLoops()">
 <input type="submit" value="Do While" onclick="doWhile()">
-
+<input type="submit" vale="break" onclick="breakloop()">
+<input type="submit" value="continue" onclick="continueLoop()">
  <script>
   const newP = document.createElement('p');
   const box = document.getElementById('number');
@@ -48,9 +49,22 @@ do {
   i++;
 }
 
-while( i < 20);
+while( i < 30);
 }
-
+function breakloop(){
+  for (let i = 0; i < 11; i++) {
+    if (i === 5) { break; }
+    newP.innerHTML += "The number is " + i + "<br>";
+    box.appendChild(newP);
+}
+}
+function continueLoop(){
+  for (let i = 0; i < 11; i++) 
+    if (i === 5) { continue; }
+    newP.innerHTML += "The number is " + i + "<br>";
+    i++;
+    box.appendChild(newP);
+}
  </script>
 </body>
 </html>
