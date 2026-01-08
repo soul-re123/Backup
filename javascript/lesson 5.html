@@ -1,0 +1,26 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+           function submit() {
+               let first = document.getElementById("first").value;
+               let last = document.getElementById("last").value;
+               //alert("Hello " + first + " " + last);
+             document.getElementById("display").innerHTML = "Hello " + first + " " + last;
+           }
+        </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title></title>
+    </head>
+    <body>
+        <h1>Personal Information</h1>
+        <p>Enter first name: <input type="text" id="first"></p>
+        <p>Enter last name: <input type="text" id="last"></p>
+
+        <p id="display"></p>
+        <button onclick="submit()">Complete</button>
+    </body>
+</html>
