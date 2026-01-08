@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript</title>
+        <style></style>
+        <script>
+    let name, adjective, nown, pet, color, age ;
+    name = prompt("Enter a name");
+    adjective = prompt("Enter an adjective");
+    nown = prompt("Enter a noun");
+    pet = prompt("Enter a type of pet");
+    color = prompt("Enter a color");
+        </script>
+        </head>
+<body>
+    <script>
+
+        let name_val, age_val, adjective_val, pet_val, color, noun, verb_ing_val, sound_val, emotion_val;
+
+        name = prompt("Enter a person's name:");
+        age = prompt("Enter an age (number):");
+        adjective = prompt("Enter an adjective:");
+        pet = prompt("Enter a type of pet:");
+        color = prompt("Enter a color:");
+        noun_val = prompt("Enter a noun:");
+        verb_ing = prompt("Enter a verb ending in -ing:");
+        sound = prompt("Enter a silly sound/phrase:");
+        emotion = prompt("Enter an emotion:");
+
+    
+        let storyText = "One day, " + name_val + " woke up at the ripe age of " + age_val + " feeling incredibly " + adjective_val + ". ";
+        storyText += "Their loyal " + pet_val + ", named Spot, was wearing a ridiculous " + color_val + " hat and chasing a rolling " + noun_val + " across the floor. ";
+        storyText += name_val + " decided to spend the day " + verb_ing_val + " outside when suddenly they heard a loud \"" + sound_val + "\"! ";
+        storyText += "They were so " + emotion_val + " they nearly fell over.";
+
+        document.getElementById("story").textContent = storyText;
+        </script>
+    </body>
+</html>
