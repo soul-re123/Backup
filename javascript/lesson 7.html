@@ -2,30 +2,23 @@
 <html lang="en">
     <head>
         <script>
-       const ticket = 12;
-       const soda = 3;
-       const popcorn = 4;
-       const candy = 3;
-        let money = parseFloat(prompt('How much money do you have?'))
 
-        let ticket1 = parseInt(prompt('How many tickets do you want?'))
-         let soda1 = parseInt(prompt('How much soda do you want?'))
-          let popcorn1 = parseInt(prompt('How much popcorn do you want?'))
-           let candy1 = parseInt(prompt('How much candy do you want?'))
+    let weight = parseInt(prompt('How much do you weigh? in pounds'));
+    let height = parseInt(prompt('How tall are in, in inches'));
 
-           let total = (ticket*ticket1)+(soda*soda1)+(popcorn*popcorn1)+(candy*candy1)
-
-           if (money <= total) {
-            alert("You don't have enough money.")
-           }
-           else {
-            alert("You have enough money!")
-           }
+    if (weight <= 0 || height <= 0) {
+        alert('Error non positive number.')
+    }
+    else if (weight >=300 || height>=84) {
+        document.write('I am sorry you are not able to ride.')
+    }
+    else if(weight <= 60 || height <= 54) {
+        document.write('I am sorry you are not able to ride.')
+    }
+    else {
+        document.write('You are able to ride.')
+    }
     
-       
-
-            
-
         </script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
