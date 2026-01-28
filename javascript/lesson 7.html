@@ -2,23 +2,22 @@
 <html lang="en">
     <head>
         <script>
+        let word = prompt('Enter a word.')
 
-    let weight = parseInt(prompt('How much do you weigh? in pounds'));
-    let height = parseInt(prompt('How tall are in, in inches'));
+        let num = parseInt(prompt('Enter a number.'));
 
-    if (weight <= 0 || height <= 0) {
-        alert('Error non positive number.')
-    }
-    else if (weight >=300 || height>=84) {
-        document.write('I am sorry you are not able to ride.')
-    }
-    else if(weight <= 60 || height <= 54) {
-        document.write('I am sorry you are not able to ride.')
-    }
-    else {
-        document.write('You are able to ride.')
-    }
-    
+        let space = '';
+
+     
+        
+
+           while (num<0) {
+            document.write(space + word + '<br>');
+             space = space + '&nbsp;'();
+            num++;
+           }
+           
+  
         </script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
